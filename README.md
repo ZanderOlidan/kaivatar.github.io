@@ -1,3 +1,3 @@
 # It's me, Zander!
 
-Just a single page site about myself. All design and UI were made from scratch
+A personal site built on top of Skeleton (because it's lighter compared to Bootstrap) and fullpage.js. 

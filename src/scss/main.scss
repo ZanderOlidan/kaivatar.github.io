@@ -1,0 +1,31 @@
+// Variables
+
+$navWidth: 200px;
+
+.menu {
+    width: $navWidth;
+    position: fixed;
+    height: 100%;
+    border-right: 1px solid #e3e3e3;
+
+    .menu_content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        a {
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            margin: 1.5rem auto;
+        }
+    }
+}
+
+.content {
+    width: calc(100% - #{$navWidth});
+    transform: translateX(#{$navWidth});
+}
